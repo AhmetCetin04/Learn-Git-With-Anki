@@ -1,4 +1,4 @@
-# Learn-Git-With-Git
+# Learn-Git-With-Anki
 Learn Git the easy way, ft. spaced repetition and experiential learning.
 
 
