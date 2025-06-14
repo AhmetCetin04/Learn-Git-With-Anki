@@ -2,7 +2,9 @@ To best understand Git, we must first understand why it exists.
 
 To put it simply, keeping track of the various states of a program as it undergoes development is both hard and tedious, and doing it in a team is practically impossible. 
 
-Hence the boomer devs from before the flood created automatic version control software, and a little later on, the same dude who created the linux kernel built one for himself. However, he made his program, which he named Git, work natively on the linux system. Due to Git being so convenient on the operating system most devs were already using, it was quickly adopted and became the industry standard.
+Hence the boomer devs from before the flood created automatic version control software, and a little later on, the same dude who created the linux kernel built one for himself. 
+
+Because his program, named Git, worked natively on the preferred operating system of most devs, they quickly adopted the software and it became the industry standard.
 
 So now that we know what Git is, and more or less why it exists lets talk a little about what it actually does. 
 
