@@ -1,10 +1,6 @@
-Lean, Organized, Efficient. 
+Lean, Efficient, Organized 
 
-This is what you can expect from this git class.
-
-This resource will revolve around the provided Anki deck.
-
-The deck will start small, as you progress new cards will be provided.
+The goal is to distill the ProGit book into 200 proof.
 
 The class is formated as such...
 1. Conceptual Introduction
@@ -14,4 +10,12 @@ The class is formated as such...
 5. Git Innesential Commands
 6. Git Innesential Options
 
-As you progress update your Anki deck whenever prompted.
+After section 3 you should be able to use git.
+
+Anything after is voluntary, but I advise finishing 5.
+
+This resource will revolve around the provided Anki deck.
+
+The deck will start small, as you progress new cards will be provided.
+
+As you progress update your deck whenever prompted.
