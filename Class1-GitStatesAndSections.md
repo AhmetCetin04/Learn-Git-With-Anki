@@ -8,12 +8,16 @@ There are three states files can exist in...
 Beyond the states our files can have, there are five sections our files can reside within...
 * Stash, where WIP files can temporarily be stored, in order to free up the workspace for other things
     ↓↑
+  
 * Workspace, where modified files sit until they are ready to be staged
     ↓
+  
 * Index, where staged files sit until they are ready to be commited
     ↓
+  
 * Local Repository, this is where files are archived on your computer
     ↓↑
+  
 * Upstream Repository, this is where files are archived on a server
 
 The following is what your workflow with git will generally look like...
