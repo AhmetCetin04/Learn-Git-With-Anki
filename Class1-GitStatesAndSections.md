@@ -1,12 +1,10 @@
 Git exists to archive the various states of a program as it undergoes development.
-
-
+</br></br></br>
 There are three states files can exist in...
 * changed (referred to as modified)
 * In line to be archived (referred to as staged)
 * archived (referred to as commited)
-
-
+</br></br></br>
 Beyond the states our files can have, there are five sections our files can reside within...
 * Stash, where WIP files can temporarily be stored, in order to free up the workspace for other things</br>
     ↓↑
@@ -17,8 +15,7 @@ Beyond the states our files can have, there are five sections our files can resi
 * Local Repository, this is where files are archived on your computer</br>
     ↓↑
 * Upstream Repository, this is where files are archived on a server
-
-
+</br></br></br>
 The following is what your workflow with git will generally look like...
 1. Get a repository, either by making one from scratch or downloading one
 2. Delete, and edit the files within the Workspace
@@ -27,7 +24,6 @@ The following is what your workflow with git will generally look like...
 6. Add the modified files, any new files, and deleted files you want Git to archive into the Index
 7. Commit the staged files in the index to the Local Repository
 8. Push your Local Repository onto the Upstream Repository
-
-
+</br></br></br>
 Bookmark this, it is a great resource
 https://ndpsoftware.com/git-cheatsheet.html#loc=workspace;
