@@ -18,9 +18,9 @@ Beyond the states our files can have, there are five sections our files can resi
 
 The following is what your workflow with git will generally look like...
 1. Get a repository, either by making one from scratch or downloading one
-2. Delete, and edit the files within the workspace
-3. (Optional) Store the files from the workspace into the Stash, this will reset the Workspace
+2. Delete, and edit the files within the Workspace
+3. (Optional) Store the files from the Workspace into the Stash, this will reset the Workspace
 5. (Optional) Retrieve the files from the Stash and place them back into the Workspace
 6. Add the modified files, any new files, and deleted files you want Git to archive into the Index
-7. Commit the staged files in the index to the local repository
+7. Commit the staged files in the index to the Local Repository
 8. Push your Local Repository onto the Upstream Repository
