@@ -1,11 +1,13 @@
 Git exists to archive the various states of a program as it undergoes development.
 
-Of the things Git does, these are the most important...
-1. Automatically documents and stores the various states of a codebase as it undergoes development
-2. Forces developers to maintain some semblance of documentation.
-3. Allows us to clone projects, make changes to cloned project, then recombine our old and new project.
-4. Allows developers to store and retrieve these various documented project states online, which makes it possible for developers to work together without any of them feeling the need to create a software killdozer. 
+There are three states files can exist in...
+* changed (referred to as modified)
+* In line to be archived (referred to as staged)
+* archived (referred to as commited)
 
-So with this out of the way, lets start talking about the Git boxes. 
-
-The Git boxes are abstract storage containers where we can store various forms of our projects.
+Beyond the states our files can have, there are five sections our files can reside within
+* Workspace, this is where you edit files
+* Index, this is where files in line to be archived sit until they are archived
+* Stash, this is where you can store files that are changed but not yet ready to be archived
+* Local Repository, this is where files are archived on your computer
+* Upstream Repository, this is where files are archived on a server
