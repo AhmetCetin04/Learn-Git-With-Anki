@@ -25,5 +25,5 @@ The following is what your workflow with git will generally look like...
 7. Commit the staged files in the index to the Local Repository
 8. Push your Local Repository onto the Upstream Repository
 
-Bookmark this, it is great...
+Bookmark this, it is great</br>
 http://ndpsoftware.com/git-cheatsheet.html#loc=stash;
