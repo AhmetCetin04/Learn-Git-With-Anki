@@ -5,9 +5,22 @@ There are three states files can exist in...
 * In line to be archived (referred to as staged)
 * archived (referred to as commited)
 
-Beyond the states our files can have, there are five sections our files can reside within
-* Workspace, this is where you edit files
-* Index, this is where files in line to be archived sit until they are archived
-* Stash, this is where you can store files that are changed but not yet ready to be archived
+Beyond the states our files can have, there are five sections our files can reside within...
+* Stash, where WIP files can temporarily be stored, in order to free up the workspace for other things
+    ↓↑
+* Workspace, where modified files sit until they are ready to be staged
+    ↓
+* Index, where staged files sit until they are ready to be commited
+    ↓
 * Local Repository, this is where files are archived on your computer
+    ↓↑
 * Upstream Repository, this is where files are archived on a server
+
+The following is what your workflow with git will generally look like...
+1. Get a repository, either by making one from scratch or downloading one
+2. Delete, and edit the files within the workspace
+3. (Optional) Store the files from the workspace into the Stash, this will reset the Workspace
+5. (Optional) Retrieve the files from the Stash and place them back into the Workspace
+6. Add the modified files, any new files, and deleted files you want Git to archive into the Index
+7. Commit the staged files in the index to the local repository
+8. Push your Local Repository onto the Upstream Repository
