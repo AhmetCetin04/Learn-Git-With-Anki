@@ -1,6 +1,6 @@
 Git exists to archive the various states of a program as it develops.
 </br></br></br>
-There are three states files can exist in...
+Files in Git cycle through three states...
 * Changed (referred to as modified)
 * In line to be archived (referred to as staged)
 * Archived (referred to as commited)
