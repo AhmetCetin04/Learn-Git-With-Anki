@@ -1,4 +1,4 @@
-Git exists to archive the various states of a program as it undergoes development.
+Git exists to archive and organize the various states of a program as it undergoes development.
 </br></br></br>
 There are three states files can exist in...
 * changed (referred to as modified)
