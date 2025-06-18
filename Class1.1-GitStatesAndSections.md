@@ -26,4 +26,4 @@ https://ndpsoftware.com/git-cheatsheet.html#loc=workspace
 
 *This guide is info-dense—don’t hesitate to reread it as needed.*
 
-Next: Git Repo Organization and Branching
+Next: Git Repo Formatting and Branching
