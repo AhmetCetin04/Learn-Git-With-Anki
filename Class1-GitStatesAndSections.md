@@ -20,7 +20,7 @@ Additionally there are the five Git "sections"...
 5. Remote Repository
    - This is the distributed git archival system. It is a database of all commits made by all users to the Remote Repository (like a Github repo), Behaves very similarly to the Local Repository. Users can fetch or clone from the Remote repository to get the remote files on their own computers.
 
-For a great visual guide to how files move through Git, check out:
+For a great visual guide to how files move through Git, check out:</br>
 https://ndpsoftware.com/git-cheatsheet.html#loc=workspace;
 
 *This guide is info-dense—don’t hesitate to reread it as needed.*
