@@ -1,5 +1,5 @@
 Git exists to archive the various states of a program as it develops.
-</br></br></br>
+</br></br>
 Files in Git cycle through three states...
 * Changed (referred to as modified)
 * In line to be archived (referred to as staged)
@@ -7,7 +7,7 @@ Files in Git cycle through three states...
   
 </br></br>
 These files live within branches (slightly different versions of the same project), which in turn live in the Git Repository (your project folder under Git’s control).
-</br></br></br>
+</br></br>
 Additionally there are the five Git "sections"...
 1. The Workspace
    - The Workspace is the only section where you can edit and modify Git files. If you have access to a Git repository—local or remote—you can check out any of its branches and work with them here. Modified files sit here until they are staged, at which point they move onto the Index.
@@ -19,9 +19,10 @@ Additionally there are the five Git "sections"...
    - This is the Git directory on your computer. It is a database of all commits, and it keeps track of which commits belong to which branch. You can push your Local Repository to a Remote Repository, causing the remote repository to sync itself to your local repo.
 5. Remote Repository
    - This is the distributed git archival system. It is a database of all commits made by all users to the Remote Repository (like a Github repo), Behaves very similarly to the Local Repository. Users can fetch or clone from the Remote repository to get the remote files on their own computers.
-
+</br>
 For a great visual guide to how files move through Git, check out:</br>
-https://ndpsoftware.com/git-cheatsheet.html#loc=workspace;
+https://ndpsoftware.com/git-cheatsheet.html#loc=workspace
+</br></br>
 
 *This guide is info-dense—don’t hesitate to reread it as needed.*
 
