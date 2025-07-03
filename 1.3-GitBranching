@@ -1,22 +1,23 @@
 Lets recall our last diagram from 1.2, we don't currently care about the blobs or trees so lets ignore them for now...
 
 ```
-                                                                         +------------------+
-                                                                         |       HEAD       |
-                                                                         +--------+---------+
-                                                                                  |
-                                                                                  v
-                                                                         +------------------+
-                                                                         |  branch: master  |
-                                                                         +--------+---------+
-                                                                                  |
-                                                                                  v
- +-------+     +----------------------+                                +----------------------+
- | . . . | <-- |      hash: vwx       |  <---------------------------  |      hash: yzα       |
- +-------+     |   (second commit)    |                                |    (third commit)    |
-               +----------+-----------+                                +----------+-----------+
+                                               +------------------+
+                                               |       HEAD       |
+                                               +--------+---------+
+                                                        |
+                                                        v
+                                               +------------------+
+                                               |  branch: master  |
+                                               +--------+---------+
+                                                        |
+                                                        v
+ +---------------+     +-----------------+      +----------------+
+ |   hash: mno   | <-- |    hash: vwx    |  <-- |   hash: yzα    |
+ | (Init commit) |     | (second commit) |      | (third commit) |
+ +---------------+     +-----------------+      +----------------+
 
 ```
 
+Why might we want to add a second branch, what would such an operation look like?
 
 
