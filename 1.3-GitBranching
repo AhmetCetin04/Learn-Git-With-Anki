@@ -1,1 +1,22 @@
-Branching in git.......
+Lets recall our last diagram from 1.2, we don't currently care about the blobs or trees so lets ignore them for now...
+
+```
+                                                                         +------------------+
+                                                                         |       HEAD       |
+                                                                         +--------+---------+
+                                                                                  |
+                                                                                  v
+                                                                         +------------------+
+                                                                         |  branch: master  |
+                                                                         +--------+---------+
+                                                                                  |
+                                                                                  v
+ +-------+     +----------------------+                                +----------------------+
+ | . . . | <-- |      hash: vwx       |  <---------------------------  |      hash: yzα       |
+ +-------+     |   (second commit)    |                                |    (third commit)    |
+               +----------+-----------+                                +----------+-----------+
+
+```
+
+
+
