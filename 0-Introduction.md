@@ -4,16 +4,15 @@ The goal is to distill the ProGit book into 200 proof.
 
 The class is formated as such...
 1. Conceptual Introduction
-2. Git Basics
-3. Git Core Commands
-4. GitHub Core Commands
-5. Git Core Command Options
-6. Git Innesential Commands
-7. Git Innesential Command Options
+2. Git Core Commands
+3. GitHub Core Commands
+4. Git Core Command Options
+5. Git Innesential Commands
+6. Git Innesential Command Options
 
-After section 3 you should be able to use git.
+After section 2 you should be able to use git.
 
-Anything after 3 is voluntary, but I'd recommend continuing till 5.
+Anything after 2 is voluntary, but I'd recommend continuing till 4.
 
 This resource will revolve around the provided Anki deck.
 
